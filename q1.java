@@ -15,7 +15,5 @@ public class PercentageCalculator{
         float percentage=(float)totalMarks/(subjects*100)*100;
 
         System.out.printf("Percentage = %.2f%%\n", percentage);
-
-        sc.close();
     }
 }
